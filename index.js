@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function(){
       {
         breakpoint: 480,
         settings: {
-          arrows: false,
+          // arrows: false,
           centerMode: true,
           centerPadding: '40px',
           slidesToShow: 1

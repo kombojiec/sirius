@@ -408,6 +408,16 @@ template {
     font-size: 4px;
   }
 }
+@media (max-width: 490px) {
+  .document {
+    font-size: 3px;
+  }
+}
+@media (max-width: 370px) {
+  .document {
+    font-size: 2px;
+  }
+}
 .body {
   position: relative;
   margin: 0 auto;
@@ -519,11 +529,17 @@ template {
   margin-right: 0.2rem;
 }
 
+@media (max-width: 990px) {
+  .header-nav__item-img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
 .hero {
   margin-top: -8.5rem;
 }
 .hero__cover {
-  background: center/contain no-repeat url("./images/hero.png");
+  background: center/contain no-repeat url("../../images/hero.png");
   padding-bottom: 52.77%;
 }
 .hero__wrapper {
@@ -810,11 +826,11 @@ template {
 }
 .slider .slick-prev {
   right: 20%;
-  background: center/contain no-repeat url("./images/prev.svg");
+  background: center/contain no-repeat url("../../images/prev.svg");
 }
 .slider .slick-next {
   right: 15%;
-  background: center/contain no-repeat url("./images/next.svg");
+  background: center/contain no-repeat url("../../images/next.svg");
 }
 .slider__item {
   position: relative;
@@ -876,6 +892,11 @@ template {
   text-decoration: none;
 }
 
+@media (max-width: 490px) {
+  .slider__img {
+    width: 100rem;
+  }
+}
 .catalog {
   background-color: #1A0733;
   padding: 12rem 0 8rem;
@@ -940,22 +961,22 @@ template {
   padding-bottom: 70%;
 }
 .card__bg_type_sound {
-  background: center/contain no-repeat url("./images/sound.png");
+  background: center/contain no-repeat url("../../images/sound.png");
 }
 .card__bg_type_video {
-  background: center/contain no-repeat url("./images/video.png");
+  background: center/contain no-repeat url("../../images/video.png");
 }
 .card__bg_type_light {
-  background: center/contain no-repeat url("./images/light.png");
+  background: center/contain no-repeat url("../../images/light.png");
 }
 .card__bg_type_visual {
-  background: center/contain no-repeat url("./images/visual.png");
+  background: center/contain no-repeat url("../../images/visual.png");
 }
 .card__bg_type_scene {
-  background: center/contain no-repeat url("./images/scene.png");
+  background: center/contain no-repeat url("../../images/scene.png");
 }
 .card__bg_type_furniture {
-  background: center/contain no-repeat url("./images/furniture.png");
+  background: center/contain no-repeat url("../../images/furniture.png");
 }
 .card__cover {
   position: absolute;
@@ -1015,6 +1036,11 @@ template {
           transform: translateX(0.5rem);
 }
 
+@media (max-width: 490px) {
+  .card__direction {
+    width: 10rem;
+  }
+}
 .footer {
   padding: 3.6rem 0 8rem;
 }
@@ -1087,6 +1113,11 @@ template {
   padding-top: 3.2rem;
 }
 
+@media (max-width: 490px) {
+  .footer__location-mark {
+    width: 3rem;
+  }
+}
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
