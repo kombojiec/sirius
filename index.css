@@ -523,7 +523,7 @@ template {
   margin-top: -8.5rem;
 }
 .hero__cover {
-  background: center/contain no-repeat url("../../images/hero.png");
+  background: center/contain no-repeat url("./images/hero.png");
   padding-bottom: 52.77%;
 }
 .hero__wrapper {
@@ -810,11 +810,11 @@ template {
 }
 .slider .slick-prev {
   right: 20%;
-  background: center/contain no-repeat url("../../images/prev.svg");
+  background: center/contain no-repeat url("./images/prev.svg");
 }
 .slider .slick-next {
   right: 15%;
-  background: center/contain no-repeat url("../../images/next.svg");
+  background: center/contain no-repeat url("./images/next.svg");
 }
 .slider__item {
   position: relative;
@@ -940,22 +940,22 @@ template {
   padding-bottom: 70%;
 }
 .card__bg_type_sound {
-  background: center/contain no-repeat url("../../images/sound.png");
+  background: center/contain no-repeat url("./images/sound.png");
 }
 .card__bg_type_video {
-  background: center/contain no-repeat url("../../images/video.png");
+  background: center/contain no-repeat url("./images/video.png");
 }
 .card__bg_type_light {
-  background: center/contain no-repeat url("../../images/light.png");
+  background: center/contain no-repeat url("./images/light.png");
 }
 .card__bg_type_visual {
-  background: center/contain no-repeat url("../../images/visual.png");
+  background: center/contain no-repeat url("./images/visual.png");
 }
 .card__bg_type_scene {
-  background: center/contain no-repeat url("../../images/scene.png");
+  background: center/contain no-repeat url("./images/scene.png");
 }
 .card__bg_type_furniture {
-  background: center/contain no-repeat url("../../images/furniture.png");
+  background: center/contain no-repeat url("./images/furniture.png");
 }
 .card__cover {
   position: absolute;
