@@ -1,10 +1,10 @@
 .hero{
   margin-top: -8.5rem;
-  // z-index: -1;
 
   &__cover{
     background: center / contain no-repeat url("../../images/hero.png");
     padding-bottom: 52.77%;
+    background-image: url('../../images/hero.png');
   }
 
   &__wrapper{

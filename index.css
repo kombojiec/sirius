@@ -541,6 +541,7 @@ template {
 .hero__cover {
   background: center/contain no-repeat url("../../images/hero.png");
   padding-bottom: 52.77%;
+  background-image: url("../../images/hero.png");
 }
 .hero__wrapper {
   position: absolute;
