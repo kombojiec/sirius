@@ -1,0 +1,35 @@
+@import '../vendor/variables';
+
+.catalog{
+  background-color: $bg_violet;
+  padding: 12rem 0 8rem;
+
+  &__title{
+    margin-bottom: 1.6rem;
+    font-family: 'Montserrat',  sans-serif;
+    font-weight: 700;
+    font-size: 4.6rem;
+    line-height: 5.6rem;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-align: left;
+  }
+
+  &__subtitle{
+    max-width: 60rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #fff;
+    opacity: 0.6;
+    text-align: left;
+    margin-bottom: 5.6rem;
+  }
+
+  &__grid{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.4rem;
+  }
+
+}

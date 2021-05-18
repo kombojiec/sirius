@@ -1,0 +1,13 @@
+.container{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 122rem;
+    position: relative;
+    text-align: center;
+}
+
+@media (max-width: 1200px){
+    .container{
+        max-width: 95%;
+    }
+  } 

@@ -1,0 +1,26 @@
+.header{
+  background-color: transparent;
+  padding: 1.8rem;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+
+  &__content{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  &__phone{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s linear;
+
+    &:hover{
+      transform: scale(1.05);
+    }
+  }
+
+}

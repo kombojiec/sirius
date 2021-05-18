@@ -1,0 +1,56 @@
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &__item{
+    width: 25%;
+  }
+
+  &__item_type_broad{
+    width: 50%;
+  }
+
+  &__title{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    color: rgba(0, 0, 0, .4);
+    text-align: left;
+  }
+
+  &__nav{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    &_type_broad{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+  }
+
+  &__nav-item{
+    text-align: left;
+
+    &_type_broad{
+      display: block;
+      width: 50%;
+    }
+  }
+
+  &__link{
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    opacity: 0.8;
+    color: #000;
+    text-decoration: none;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+}
