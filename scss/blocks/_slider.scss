@@ -35,12 +35,12 @@
 
   & .slick-prev{
     right: 20%;
-    background: center / contain no-repeat url('../../images/prev.svg');
+    background: center / contain no-repeat url('./images/prev.svg');
   }
 
   & .slick-next{
     right: 15%;
-    background: center / contain no-repeat url('../../images/next.svg');
+    background: center / contain no-repeat url('./images/next.svg');
   }
 
   &__item{
