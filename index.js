@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   })
   
-  if(document.documentElement.clientWidth <= 990){
+  if(document.documentElement.clientWidth <= 990){   
     document.addEventListener('click', event => {
       if(!event.target.closest('header')){
         closeMenu();

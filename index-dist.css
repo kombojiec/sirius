@@ -478,7 +478,7 @@ template {
     background-color: #4D208A;
   }
   .header__menu {
-    background: center/contain no-repeat url("../../images/burger.svg");
+    background: center/contain no-repeat url("./images/burger.svg");
     width: 3.5rem;
     height: 3.5rem;
     position: absolute;
