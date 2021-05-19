@@ -100,8 +100,43 @@
 
 }
 
-@media (max-width: 490px){
-  .slider__img{
-      width: 100rem;
+@media (max-width: 736px){
+
+  .slider{
+    
+    &__img{
+      width: 50rem;
+    }
+    
+    .slick-prev{
+      right: 22%;
+    }
+
+  }
+} 
+
+@media (max-width: 568px){
+  .slider{
+
+    .slick-next{
+      right: 10%;
+    }
+
+    &__item-title{
+      font-size: 2rem;
+      line-height: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    &__item-description{
+      margin-bottom: 1rem;
+      line-height: 2rem;
+    }
+
+    &__item-link{
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+    }
+
   }
 } 

@@ -54,3 +54,51 @@
   }
 
 }
+
+
+@media (max-width: 736px){
+  .menu{
+
+    flex-wrap: wrap;
+      
+    &__item{
+      width: 100%;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid $border;
+
+      &:last-child{
+        border: none;
+      }
+    }
+
+    &__title{
+      margin-bottom: 1rem;
+    }
+
+    &__nav{
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 1rem;
+    }
+
+    &__nav-item{
+      width: 50%;
+    }
+    
+  }
+} 
+
+
+@media (max-width: 568px){
+  .menu{
+
+    &__nav{
+      gap: 5%;
+    }
+
+    &__nav-item{
+      width: 47.5%;
+    }
+
+  }
+}

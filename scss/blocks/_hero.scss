@@ -65,17 +65,174 @@
 @media (max-width: 1200px){
   .hero{
       margin-top: -10rem;
+
+    &__wrapper{
+      top: 20rem;
+      max-width: 65rem;
+    }
+
+    &__title{
+      font-size: 3.2rem;
+      line-height: 4rem;
+      max-width: 100%;
+    }
+
+    &__subtitle{
+      font-size: 2.5rem;
+      line-height: 3rem;
+      max-width: 100%;
+      margin-bottom: 3rem;
+    }
+
+    &__button{
+      font-size: 1.5rem;
+    }
+
   }
 } 
+
 
 @media (max-width: 990px){
-    .hero{
-      margin-top: -12rem;
+  .hero{
+      margin-top: 0;
+
+    &__wrapper{
+      top: 0;
+      max-width: 75rem;
+    }
+
+    &__title{
+      font-size: 4.2rem;
+      line-height: 5rem;
+      margin-top: 4rem;
+    }
+
+    &__subtitle{
+      font-size: 3rem;
+      line-height: 4rem;
+      margin-bottom: 8rem;
+    }
   }
 } 
 
-@media (max-width: 800px){
+
+
+@media (max-width: 736px){
   .hero{
-    margin-top: -14rem;
-}
+
+    &__title{
+      font-size: 3rem;
+      margin-top: 2rem;
+    }
+
+    &__subtitle{
+      font-size: 2.5rem;
+    }
+
+    &__subtitle{
+      margin-bottom: 5rem;
+    }
+
+  }
+} 
+
+
+@media (max-width: 568px){
+  .hero{
+
+    margin-top: 0;
+
+    &__wrapper{
+      top: 0;
+    }
+
+    &__title{
+      font-size: 2.5rem;
+      line-height: 2.7rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      max-width: 60%;
+    }
+
+    &__subtitle{
+      font-size: 2.5rem;
+      line-height: 2.7rem;
+      margin-bottom: 3rem;
+      max-width: 60%;
+    }
+
+    &__button{
+      padding: 1rem 2rem;
+      line-height: 2rem;
+    }
+  }
+} 
+
+
+@media (max-width: 500px){
+  .hero{
+
+
+    &__title{
+      max-width: 75%;
+    }
+
+    &__subtitle{
+      max-width: 75%;
+    }
+  }
+} 
+
+
+@media (max-width: 460px){
+  .hero{
+
+    &__title{
+      font-size: 2.5rem;
+      line-height: 2.7rem;
+      margin-top: 0.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+      max-width: 80%;
+    }
+
+    &__subtitle{
+      font-size: 2rem;
+      line-height: 2.2rem;
+      margin-bottom: 2.5rem;
+      max-width: 80%;
+    }
+
+    &__button{
+      padding: 1rem 2rem;
+      line-height: 2rem;
+    }
+  }
+} 
+
+
+@media (max-width: 420px){
+  .hero{
+
+    &__title{
+      font-size: 2rem;
+      line-height: 2.2rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1.5rem;
+      max-width: 80%;
+    }
+
+    &__subtitle{
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+      margin-bottom: 1.5rem;
+      max-width: 80%;
+    }
+
+    &__button{
+      padding: 1rem 2rem;
+      line-height: 2rem;
+    }
+
+  }
 } 

@@ -128,3 +128,76 @@
   }
 
 }
+
+
+@media (max-width: 1200px){
+
+  .arena{
+
+    &__item-wrapper{
+      width: 4.6rem;
+      height: 4.6rem;
+    }
+
+  }
+}
+
+@media (max-width: 736px){
+
+  .arena{
+
+    &__item_type_7{
+      & .arena__item-description{
+        left: -15rem;
+      }
+    }
+
+    &__item_type_8{
+      & .arena__item-description{
+        left: -15rem;
+      }
+    }
+
+  }
+
+}
+
+@media (max-width: 568px){
+
+  .arena{
+
+    &__item-wrapper{
+      width: 3rem;
+      height: 3rem;
+    }
+
+    &__cross{
+      width: 2rem;
+      height: 2rem;
+    }
+
+    &__item-description{
+      width: 20rem;
+    }
+
+    &__item_type_7{
+      & .arena__item-description{
+        left: -10rem;
+      }
+    }
+
+    &__item_type_8{
+      & .arena__item-description{
+        left: -10rem;
+      }
+    }
+
+    &__item_type_9{
+      & .arena__item-description{
+        left: -20rem;
+      }
+    }
+
+  }
+
+}

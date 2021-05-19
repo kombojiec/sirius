@@ -36,6 +36,15 @@
     line-height: 2rem;
     opacity: 0.8;
     text-align: left;
+
+    &>a{
+      text-decoration: none;
+      color: #000;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
 
   &__location-contacts{
@@ -69,8 +78,46 @@
 }
 
 
-@media (max-width: 490px){
-  .footer__location-mark{
+@media (max-width: 736px){
+  .footer{
+
+    padding: 3rem 0;
+
+    &__location{
+      flex-wrap: wrap;
+    }
+
+    &__logo{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+
+    &__location-item{
+      width: 30%;
+    }
+
+  }
+} 
+
+@media (max-width: 568px){
+
+  .footer{
+
+    &__location-item{
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+
+    &__location-mark{
       width: 3rem;
+    }
+
+    &__location-item_type_phone{
+      display: flex;
+      align-items: flex-end;
+    }
+
   }
 } 

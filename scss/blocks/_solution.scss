@@ -70,3 +70,104 @@
   }
 
 }
+
+@media (max-width: 1200px){
+
+  .solution{
+
+    &__title{
+      font-size: 3.2rem;
+      line-height: 4rem;
+      max-width: 80rem;
+      margin-bottom: 5rem;
+    }
+
+    &__name{
+      font-size: 3rem;
+      max-width: 90%;
+    }    
+
+  }
+
+}
+
+@media (max-width: 736px){
+
+  .solution{
+
+    padding-top: 5rem;
+
+    &__title{
+      font-size: 3rem;
+      line-height: 3rem;
+      max-width: 80rem;
+      margin-bottom: 5rem;
+    }
+
+    &__number{
+      margin-right: 2.5rem;
+    }
+
+    &__name-wrap{
+      width: 30%;
+    }
+
+    &__name{
+      font-size: 2.5rem;
+    }    
+
+    &__description{
+      padding-right: 2rem;
+      font-size: 2rem;
+    }
+
+  }
+
+}
+
+@media (max-width: 568px){
+
+  .solution{
+
+    &__title{
+      font-size: 3rem;
+      line-height: 3.2rem;
+      max-width: 80rem;
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+
+    &__name{
+      font-size: 3rem;
+    }    
+
+    &__item{
+      display: flex;
+      flex-wrap: wrap; 
+      align-items: flex-start;     
+    }
+
+    &__number{
+      width: 20%;
+      margin: 0;
+    }
+
+    &__name-wrap{
+      width: 80%;
+      margin-bottom: 2rem;
+    }
+
+    &__name{
+      text-align: center;
+      font-size: 3rem;
+      line-height: 3rem;
+    }
+
+    &__description{
+      width: 100%;
+      padding: 1rem;
+    }
+
+  }
+
+}
