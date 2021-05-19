@@ -223,7 +223,7 @@
     }
 
     &__subtitle{
-      font-size: 1.5rem;
+      font-size: 2rem;
       line-height: 1.8rem;
       margin-bottom: 1.5rem;
       max-width: 80%;
@@ -232,6 +232,22 @@
     &__button{
       padding: 1rem 2rem;
       line-height: 2rem;
+    }
+
+  }
+} 
+
+@media (max-width: 360px){
+  .hero{
+
+    &__title{
+      font-size: 2rem;
+      line-height: 2.2rem;
+    }
+
+    &__subtitle{
+      font-size: 1.5rem;
+      line-height: 1.8rem;
     }
 
   }
