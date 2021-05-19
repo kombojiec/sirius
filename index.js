@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function(){
     menu.classList.toggle('opened');
     if(menu.classList.contains('opened')){
       menu.style.right = '0';
-      menuButton.style.background = 'center/contain no-repeat url(../../images/close.svg)';
+      menuButton.style.background = 'center/contain no-repeat url(./images/close.svg)';
     }else{
       closeMenu();
     }
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function(){
   
   function closeMenu(){
     menu.style.right = '-27rem';
-    menuButton.style.background = 'center/contain no-repeat url(../../images/burger.svg)';
+    menuButton.style.background = 'center/contain no-repeat url(./images/burger.svg)';
   }
 
 
