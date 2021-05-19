@@ -37,12 +37,13 @@ document.addEventListener('DOMContentLoaded', function(){
   const menuButton = menu.querySelector('.header__menu');
 
   menuButton.addEventListener('click', () => {
-    menu.classList.toggle('opened');
+    // menu.classList.toggle('opened');
     if(menu.classList.contains('opened')){
+      closeMenu();
+    }else{
+      menu.classList.add('opened')
       menu.style.right = '0';
       menuButton.style.background = 'center/contain no-repeat url(./images/close.svg)';
-    }else{
-      closeMenu();
     }
   })
   
@@ -57,6 +58,7 @@ document.addEventListener('DOMContentLoaded', function(){
   function closeMenu(){
     menu.style.right = '-27rem';
     menuButton.style.background = 'center/contain no-repeat url(./images/burger.svg)';
+    menu.classList.remove('opened')
   }
 
 
