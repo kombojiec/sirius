@@ -47,6 +47,7 @@
 
     &__menu{
       background: center / contain no-repeat url('./images/burger.svg');
+
       width: 3.5rem;
       height: 3.5rem;
       position: absolute;
@@ -86,3 +87,17 @@
 
   }
 } 
+
+
+@media (max-height: 560px){
+  .header{
+
+    &__logo{
+      margin: 0 0 1rem;
+    }
+
+    &__phone{
+      bottom: 1rem;
+    }
+  }
+}

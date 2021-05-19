@@ -103,3 +103,24 @@
 
   }
 } 
+
+
+@media (max-height: 560px){
+
+  .header-nav{
+
+    &__list{
+      padding-top: 1rem;
+    }
+
+    &__item{
+      margin: 0;
+      padding-bottom: 0.5rem;
+    }
+
+    &__link{
+      font-size: 1.9rem;
+      line-height: 2.2rem;
+    }
+  }
+}
